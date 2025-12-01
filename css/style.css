@@ -1,0 +1,53 @@
+
+/* Default Browser Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font &amp; BG Mutation */
+body {
+    font-family: 'Rubik', serif;
+    background: #041e39;
+}
+
+/* App Container (Flexbox) */
+.app-container {
+    margin-top: 150px auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Counter Display Styles */
+.app-container .counter-display {
+    font-size: 4rem;
+    color: #ff00ff;
+    margin: 1.5rem 0;
+}
+
+/* Counters (Buttons) Styles */
+.app-container .action-buttons button {
+    padding: 10px 32px;
+    color: #ffffff;
+    border-radius: .2rem;
+    border: .2rem;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 0 .1rem;
+}
+
+/* Individual Button's Color Mutation */
+button:nth-child(1) {background: #e70808;}
+button:nth-child(2) {background: #1e90ff;}
+button:nth-child(3) {background: #008000;}
+
+/* Footer Styles */
+footer {position: fixed; bottom: 25px; width: 100%;}
+footer p {color: #ffffff!important; text-align: center;}
